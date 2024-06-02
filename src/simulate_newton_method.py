@@ -20,6 +20,7 @@ import time
 import copy
 
 import autograd.numpy as np
+
 from IPython.display import Image, HTML
 from base64 import b64encode
 from matplotlib import rcParams
