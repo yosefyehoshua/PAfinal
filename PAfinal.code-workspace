@@ -1,0 +1,99 @@
+{
+	"folders": [
+		{
+			"path": "/Users/Yosef.Yehoshua/Courses/optimizationPython/PAfinal"
+		},
+	],
+	"settings": {
+		"debug.console.lineHeight": 30,
+		// "terminal.integrated.profiles.osx":{
+		// 	"bash": {
+		// 		"path": "zsh"
+		// 	}
+		// },
+
+
+		"terminal.integrated.profiles.linux":{
+			"bash": {
+				"path": "bash"
+			}
+		},
+
+		"terminal.integrated.env.osx": {
+			"PYTHONPATH": "${env:PYTHONPATH}:/Users/Yosef.Yehoshua/PycharmProjects/PAfinal",
+			"JUPYTERPATH": "${env:JUPYTERPATH}:/Users/Yosef.Yehoshua/PycharmProjects/PAfinal",
+		},
+		
+		"terminal.integrated.env.linux": {
+			"PYTHONPATH": "${env:PYTHONPATH}:/Users/Yosef.Yehoshua/PycharmProjects/PAfinal",
+			"JUPYTERPATH": "${env:JUPYTERPATH}:/Users/Yosef.Yehoshua/PycharmProjects/PAfinal",
+		},
+		"jupyter.debugJustMyCode": false,
+		"files.watcherExclude": {
+			// "/mnt/**/*": true,
+		},
+		"git.ignoreLimitWarning": true,
+		"search.exclude": {
+			// "/mnt/**/*": true
+		},
+		"vsintellicode.features.python.deepLearning": "enabled",
+		"python.analysis.completeFunctionParens": true,
+		"python.analysis.diagnosticMode": "openFilesOnly",
+		"python.autoComplete.extraPaths": [
+
+			// "/ws/examples-dev",
+			// "/ws/algo_scripts",
+		],
+		"python.analysis.extraPaths": [
+			// "/ws/examples-dev",
+			// "/ws/algo_scripts",
+		],
+		// "git.ignoredRepositories": [
+		// 	"/ws/pycoral"
+		// ],
+		// "search.followSymlinks": false,
+		// "python.languageServer": "Jedi",
+		"workbench.colorCustomizations": {
+    
+        
+			"terminal.foreground": "#eff0eb",
+			"terminal.ansiBlack": "#282a36",
+			"terminal.ansiRed": "#ff5c57",
+			"terminal.ansiGreen": "#5af78e",
+			"terminal.ansiYellow": "#f3f99d",
+			"terminal.ansiBlue": "#57c7ff",
+			"terminal.ansiMagenta": "#ff6ac1",
+			"terminal.ansiCyan": "#9aedfe",
+			"terminal.ansiWhite": "#f1f1f0",
+			"terminal.ansiBrightBlack": "#686868",
+			"terminal.ansiBrightRed": "#ff5c57",
+			"terminal.ansiBrightGreen": "#5af78e",
+			"terminal.ansiBrightYellow": "#f3f99d",
+			"terminal.ansiBrightBlue": "#57c7ff",
+			"terminal.ansiBrightMagenta": "#ff6ac1",
+			"terminal.ansiBrightCyan": "#9aedfe",
+			"terminal.ansiBrightWhite": "#eff0eb"
+		},
+		"vim.hlsearch": true,
+		"editor.lineNumbers": "relative",
+	},
+	"launch": {
+		"version": "0.2.0",
+		"configurations": [
+			{
+				"type": "debugpy",
+				"name": "Python: Current File",
+				"request": "launch",
+				"program": "${file}",
+				"console": "internalConsole",
+				"cwd": "${workspaceFolder}",
+				"env": {"PYTHONPATH":"${env:PYTHONPATH}:/Users/Yosef.Yehoshua/PycharmProjects/PAfinal",
+					 "JUPYTERPATH":"${env:JUPYTERPATH}:/Users/Yosef.Yehoshua/PycharmProjects/PAfinal",
+					//  "DISPLAY": "localhost:16.0"
+					},
+				"justMyCode": false
+			},
+
+		]
+	}
+}
